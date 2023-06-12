@@ -13,7 +13,7 @@
     <project path="device/realme/messi" name="cd-Crypton/android_device_realme_messi" remote="github" revision="thirteen" />
     <project path="vendor/realme/messi" name="cd-Crypton/proprietary_tree_realme_messi" remote="github" revision="13" />
     <project path="vendor/firmware" name="firmware-dump/vendor_firmware_realme" remote="gitlab" revision="13" />
-    <project path="kernel/realme/messi" name="cd-Crypton/android_kernel_realme_messi" remote="github" revision="messi-12.3-1" />
+    <project path="kernel/realme/messi" name="cd-Crypton/android_kernel_realme_messi" remote="github" clone-depth="1" revision="messi-12.3-1" />
     <project path="hardware/oplus" name="cd-Crypton/android_hardware_oplus" remote="github" revision="lineage-20" />
 
 </manifest>
