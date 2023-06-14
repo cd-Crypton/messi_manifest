@@ -13,7 +13,7 @@ git clone https://github.com/cd-Crypton/proprietary_tree_realme_messi.git -b 13 
 git clone https://gitlab.com/firmware-dump/vendor_firmware_realme.git -b 13 ./vendor/firmware
 
 # Kernel Tree
-git clone https://github.com/cd-Crypton/android_kernel_realme_messi.git -b messi-12.3-1 ./kernel/realme/messi
+git clone --depth=1 https://github.com/cd-Crypton/android_kernel_realme_messi.git -b messi-12.3-1 ./kernel/realme/messi
 
 # Hardware OPlus
 git clone https://github.com/cd-Crypton/android_hardware_oplus.git -b lineage-20 ./hardware/oplus
